@@ -1,3 +1,5 @@
+#Primeiro exercicio e testando o Git atualizando pelo site.
+
 msg='Olá mundo!'
 print(msg)
 
