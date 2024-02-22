@@ -7,3 +7,6 @@ print('---'*10)
 
 print('Olá Mundo!')
 
+#Teste de commit pelo Pycharm
+
+
