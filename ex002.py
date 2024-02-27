@@ -1,11 +1,3 @@
-#função
-def bemVindo(n):
-    return f"E um prazer conhece-lo {n}"
-
-
-n="Alan"
-bemVindo(n)
-
 nome=input('Digite seu nome: ')
 
 #saida no formato do livro
@@ -28,3 +20,8 @@ print('Prazer em conhece-lo {:^10}!'.format(nome))
 
 #alinhamento centralizado com simbolos
 print('Prazer em conhece-lo {:-^10}!'.format(nome))
+
+#
+bemVindo = lambda x: f"E um prazer conhece-lo {x}"
+n="Alan"
+print(bemVindo(n))
