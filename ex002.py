@@ -13,7 +13,7 @@ print('---'*10)
 #saida no formato FMU
 print(f'E um prazer te conhecer, {nome}!')
 
-#formatando o espacamento da saida
+#formatando o espaçamento da saida
 
 #alinhamento centralizado
 print('Prazer em conhece-lo {:^10}!'.format(nome))
